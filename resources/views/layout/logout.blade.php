@@ -1,0 +1,1 @@
+<a href="{{route('logout')}}" class="nav-link buttonInscription">Se déconnecter</a>

@@ -1,0 +1,118 @@
+.block {
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+  padding: 1vw;
+  border: 1px solid #ccc;
+  background-color: white;
+  border-radius: 5px;
+  margin-bottom: 5vh;
+  margin-top: 5vh;
+}
+body {
+  background-color: #f5f5f5;
+}
+.search {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 7vh;
+}
+
+.buttonInscription {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 1.3vh;
+  margin: 1.3vh;
+  color: darkslategrey;
+  background: white;
+}
+.buttonInscription:hover {
+  background: linear-gradient(to right, #bbf8fb, #fad6eb);
+  color: black;
+  cursor: pointer;
+}
+
+form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 10vh 0 10vh 0;
+  background-color: #fdebf5;
+  border-radius: 35px;
+  padding: 5vh;
+  width: 100%;
+}
+
+.sectionForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 5vh;
+}
+
+.title {
+  font-size: 2.5em;
+  font-weight: bold;
+  color: darkslategrey;
+  margin-bottom: 2vh;
+  width: 100%;
+  text-align: center;
+  margin-top: 5vh;
+}
+
+input,
+select {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 1.6vh;
+  margin: 1.3vh;
+  width: 28%;
+  height: auto;
+  font-size: 1.2em;
+}
+option {
+  text-align: center;
+}
+
+.vertical-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 5vh;
+  border: 1px solid #ccc;
+  background-color: white;
+  border-radius: 5px;
+  padding: 2vh;
+}
+.horizontal-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  gap: 4vh;
+}
+
+.cards {
+  margin-bottom: 5vh;
+}
+
+.infoUser {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1vh;
+  margin: 5vh 10vw 5vh 10vw;
+  background: linear-gradient(to right, #bbf8fb, #ffecf7);
+  border: 1px solid #999999;
+  border-radius: 20px;
+}

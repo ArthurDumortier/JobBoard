@@ -1,0 +1,105 @@
+.postuler {
+  width: 55%;
+  margin: 10vh auto 10vh auto;
+  padding: 3vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 35px;
+  background: linear-gradient(to right, #bbf8fb, #ffecf7);
+  color: black;
+}
+
+.formContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1vh;
+  margin: 1vh;
+  width: 100%;
+  background-color: rgb(223, 255, 253);
+  border: 1px solid #999999;
+  border-radius: 20px;
+}
+
+input[type="file"] {
+  background-color: white;
+  width: 100%;
+}
+
+.infoAnnonce,
+.infoEntreprise,
+.infoRecruteur,
+.infoSalaries,
+.infoDomaines,
+.infoReseaux {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1vh;
+  margin: 5vh 10vw 5vh 10vw;
+  background: linear-gradient(to right, #bbf8fb, #ffecf7);
+  border: 1px solid #999999;
+  border-radius: 20px;
+}
+
+.infoSalarie {
+  display: flex;
+  flex-direction: column;
+}
+
+.nbOffres {
+  border: 1px solid #999999;
+  border-radius: 20px;
+  padding: 1vh;
+}
+
+.nbOffres:hover {
+  background-color: rgb(223, 255, 253);
+}
+
+.modifierForm {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #bbf8fb, #ffecf7);
+  border: 1px solid #999999;
+  border-radius: 20px;
+}
+
+.inputForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1vh;
+  margin: 4vh;
+  width: 30%;
+  background-color: rgb(223, 255, 253);
+  border: 1px solid #999999;
+  border-radius: 20px;
+}
+
+input[type="text"],
+option,
+select,
+input[type="number"],
+input[type="date"],
+input[type="password"],
+input[type="email"] {
+  width: 80%;
+}

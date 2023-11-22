@@ -1,0 +1,12 @@
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: aliceblue;
+  border-radius: 5px;
+  padding-top: 0.7em;
+}
+
+li {
+  list-style: none;
+}

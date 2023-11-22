@@ -1,0 +1,54 @@
+thead,
+tbody,
+td,
+th {
+  border: 1px solid #d3d3d3;
+}
+
+table {
+  display: block;
+  margin: 2rem 0 2rem 0;
+  overflow-x: auto;
+}
+
+td,
+th {
+  padding: 0.5rem;
+}
+
+h1.admin-page-title {
+  margin-top: 1rem;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.modifie {
+  padding: 0.5rem;
+  background-color: rgb(168, 227, 255);
+  border-radius: 0.4em;
+  color: black;
+}
+
+.delete {
+  padding: 0.5rem;
+  background-color: rgb(255, 113, 113);
+  border-radius: 0.4em;
+  color: black;
+}
+
+.modifie:hover {
+  color: rgb(168, 217, 255);
+  background-color: rgb(71, 92, 103);
+}
+
+.delete:hover {
+  color: rgb(255, 113, 113);
+  background-color: rgb(97, 60, 60);
+}
+
+.tableCandidature {
+  padding: 1vw;
+  border: 1px solid #ccc;
+  background-color: white;
+  border-radius: 5px;
+}
